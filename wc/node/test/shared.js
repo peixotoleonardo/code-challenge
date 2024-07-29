@@ -20,7 +20,7 @@ const formatOutput = (output) => {
  * @param {string} option
  */
 const validateWcOption = (option) => {
-  const validOptions = ['c', 'l', 'w'];
+  const validOptions = ['c', 'l', 'w', 'm'];
   
   if (option === '') {
     return;
